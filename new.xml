@@ -6,7 +6,6 @@
 		<age> 23 </age>
 		<pets> 3 </pets>
 	</about_me>
-	
 	<work>
 		<position> QA Engineer </position>
 		<salary> 600 </salary>
