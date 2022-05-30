@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+	<about_me>
+		<name> Vitaly </name>
+		<lastname> Krivoruchek </lastname>
+		<age> 23 </age>
+		<pets> 3 </pets>
+	</about_me>
+	
+	<work>
+		<position> QA Engineer </position>
+		<salary> 600 </salary>
+		<currency> USD </salary>
+	</work>
+</info>
