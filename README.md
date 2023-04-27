@@ -2,9 +2,9 @@
 
 [HW_2 : Terminal. Format : TXT](https://github.com/Vitaly-chek/TXT)
 
-[HW_1 : Git](https://github.com/Vitaly-chek/Git)
-
 [HW_1 : Terminal](https://github.com/Vitaly-chek/Terminal)
+
+[HW_1 : Git](https://github.com/Vitaly-chek/Git)
 
 ---
 
