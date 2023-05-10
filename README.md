@@ -1,18 +1,19 @@
 # HW_2 : XML
 
-1. Создать внешний репозиторий c названием XML;
+1. Create an external repository called XML;
 
-2. Клонировать репозиторий XML на локальный компьютер - `git clone URL`;
+2. Clone the XML repository to the local computer - `git clone URL`;
 
-3. Внутри локального XML создать файл “new.xml” - `git touch new.xml`;
+3. Inside the local XML create a file “new.xml” - `git touch new.xml`;
 
-4. Добавить файл под гит - `git add .`;
+4. Add a file under git - `git add .`;
 
-5. Закоммитить файл - `git commit -m "create new file"`;
+5. Commit the file - `git commit -m "create new file"`;
 
-6. Отправить файл на внешний GitHub репозиторий - `git push`;
+6. Send a file to an external GitHub repository - `git push`;
 
-7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML:
+7. Edit the content of the “new.xml” file - write information about yourself (name, age, number of pets,
+	future desired salary). Everything is written in XML format:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -31,90 +32,93 @@
 </info>
 ```
 
-8. Отправить изменения на внешний репозиторий - `git commit -am "updated file" / git push`;
+8. Push changes to an external repository - `git commit -am "updated file" / git push`;
 
-9. Создать файл preferences.xml - `touch preferences.xml`;
+9. Create file preferences.xml - `touch preferences.xml`;
 
-10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML:
+10. In the preferences.xml file, add information about your preferences (Favorite movie,
+	favorite TV series, favorite food, favorite season, side you would like to visit) in XML format:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <preference>
-	<favorite_movie> Волк с Уолл-стрит </favorite_movie>
-	<favorite_series> Сотня </favorite_series>
+	<favorite_movie> The Wolf of Wall Street </favorite_movie>
+	<favorite_series> The 100 </favorite_series>
 	<favorite_food>
-		<1> Окрошка </1>
-		<2> Жареная картошка </2>
+		<1> Okroshka </1>
+		<2> Fried potatoe </2>
 	</favorite_food>
 	<favorite_season> 
-		<1> Лето </1>
-		<2>	Осень </2>
+		<1> Summer </1>
+		<2> Autumn </2>
 	</favorite_season> 
 	<favorite_countries>
-		<1> Швейцария <1/>
-		<2> Канада </2>
+		<1> Switzerland <1/>
+		<2> Canada </2>
 	<favorite_countries>
 </preference>
 ```
 
-11. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML - `touch skills.xml`:
+11.Create a skills.xml file, add information about the skills that will be studied in the course in XML format - `touch skills.xml`:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <skills>
-	<1> Базовая теория </1>
-	<2> Что такое клиент-серверная архитектура </2>
-	<3> HTTP Методы запросов на сервер </3>
-	<4> Коды ответов HTTP сервера </4>
-	<5> Структуры HTTP запросов и ответов </5>
-	<6> Что такое JSON, XML. Их структура </6>
-	<7> Тестировнаие API через Postman (JS, автотесты API) </7>
-	<8> Снятие и чтение логов с внешнего сервера </8>
-	<9> Снифинг http web трафика через Charles и Fiddler </9>
- 	<10> Dev Tools веб браузеров (Google Chrome, FireFox) </10>
-	<11> VPN. (Как работает, зачем нужен, как использовать, варианты инструментов) </11>
-	<12> Мобильное тестирование </12>
-	<13> Особенность iOS, Android, гайдлайны </13>
-	<14> Сборка iOS приложений на XCode </14>
-	<15> Сборка Android приложений на Android Studio </15>
-	<16> ADB (управление андройд девайсами) </16>
-	<17> Настройка прокси и vpn на iOS и Android </17>
-	<18> Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android </18>
-	<19> Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса) </19>
-	<20> Основы bash скриптинг, автоматизация рутинных задач на сервере </20>
-	<21> Доступ к удалённым серверам </21>
-	<22> Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join) </22>
-	<23> База данных Postgres (установка, настройка и использование) </23>
-	<24> Нереляционная база данных Redis (установка, настройка и использование) </24>
-	<25> Нагрузочное тестирование в Jmeter </25>
-	<26> Методология разработки Scrum </26>
+	<1> Basic theory </1>
+	<2> What is client-server architecture </2>
+	<3> HTTP Server request methods </3>
+	<4> HTTP server response codes </4>
+	<5> HTTP request and response structures </5>
+	<6> What is JSON, XML. Their structure </6>
+	<7> API testing via Postman (JS, API autotests) </7>
+	<8> Removing and reading logs from an external server </8>
+	<9> Sniffing http web traffic via Charles and Fiddler </9>
+ 	<10> Dev Tools of web browsers (Google Chrome, FireFox) </10>
+	<11> VPN. (How it works, why you need it, how to use it, tool options) </11>
+	<12> Mobile testing </12>
+	<13> iOS feature, android, guidelines </13>
+	<14> Building iOS apps with XCode </14>
+	<15> Building Android apps with Android Studio </15>
+	<16> ADB (android device management) </16>
+	<17> Proxy and vpn setup on iOS and Android </17>
+	<18> Interception (sniffing) mobile traffic via Charles and Fiddler on iOS and Android </18>
+	<19> Linux command line (terminal) (copy, create, view, move files on non-GUI servers) </19>
+	<20> Basic bash scripting, automation of routine tasks on the server </20>
+	<21> Access to remote servers </21>
+	<22> SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join) </22>
+	<23> Postgres database (installation, configuration and use) </23>
+	<24> Redis non-relational database (installation, configuration and use) </24>
+	<25> Load testing in Jmeter </25>
+	<26> Scrum development methodology </26>
 </skills>
 ```
 
-12. Сделать коммит в одну строку - `git add . && git commit -m "2 new files"`;
+12. Make a commit in one line - `git add . && git commit -m "2 new files"`;
 
-13. Отправить сразу 2 файла на внешний репозиторий - git push;
+13. Send 2 files at once to an external repository - git push;
 
-14. На веб интерфейсе создать файл bug_report.xml;
+14. On the web interface, create the bug_report.xml file;
 
-15. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+15. Make Commit changes (save) changes on the web interface;
+
+16. Modify the bug_report.xml file on the web interface, add a bug report in XML format:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <bug_report>
-  <project> Заметки </project>
+  <project> Notes </project>
   <version> 1.3 </version>
   <id> №5 </id>
-  <summary> При клике на кнопку фильтрации 'A to Z' на главной странице приложения происходит хаотичная фильтрация списков </summary>
+  <summary> When clicking on the 'A to Z' filtering button on the main page of the application, chaotic filtering of lists occurs </summary>
   <step_to_reproduce>
-    <1> Открыть приложение 'Заметки' </1>
-    <2> Создать 15 списков, которые будут начинаться соответственно (A, a, D, 3, :, U, u, Ш, ш, 5, @, Ї, ї, -, d) </2>
-    <3> На главной странице приложения ликнуть на кнопку фильтрации 'A to Z' </3>
+    <1> 1. Open the 'Notes' app </1>
+    <2> 2. Create 15 lists that will start accordingly (A, a, D, 3, :, U, u, Ш, ш, 5, @, Ї, ї, -, d) </2>
+    <3> 3. On the main page of the application, click on the filter button 'A to Z' </3>
   </step_to_reproduce>
-  <actual_result> Списки сортируются хаотично </actual_result>
+  <actual_result> Lists are sorted randomly </actual_result>
   <expected_result>  
-    <1> Списки сортируются по порядку: символы, цифры, буквы латиницы (сначала верхний регистр), буквы кириллицы (сначала верхний регистр) </1>
-    <2> Правильный порядок : (-, :, @, 3, 5, А, а, D, d, U, u, Ї, ї, Ш, ш) </2>
+    <1> The lists are sorted in order: symbols, numbers, Latin letters (upper case first), Cyrillic letters (upper case first) </1>
+    <2> Correct order : (-, :, @, 3, 5, А, а, D, d, U, u, Ї, ї, Ш, ш) </2>
   </expected_result>
   <severity> Minor </severity>
   <priority> Normal </priority>
@@ -125,8 +129,6 @@
 </bug_report>
 ```
 
-16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML;
+17. Make Commit changes (save) changes on the web interface;
 
-17. Сделать Commit changes (сохранить) изменения на веб интерфейсе;
-
-18. Синхронизировать внешний и локальный репозиторий XML - `git pull`.
+18. Synchronize external and local XML repository - `git pull`.

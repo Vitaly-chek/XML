@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bug_report>
-  <project> Заметки </project>
+  <project> Notes </project>
   <version> 1.3 </version>
   <id> №5 </id>
-  <summary> При клике на кнопку фильтрации 'A to Z' на главной странице приложения происходит хаотичная фильтрация списков </summary>
+  <summary> When clicking on the 'A to Z' filtering button on the main page of the application, chaotic filtering of lists occurs </summary>
   <step_to_reproduce>
-    <1> Открыть приложение 'Заметки' </1>
-    <2> Создать 15 списков, которые будут начинаться соответственно (A, a, D, 3, :, U, u, Ш, ш, 5, @, Ї, ї, -, d) </2>
-    <3> На главной странице приложения ликнуть на кнопку фильтрации 'A to Z' </3>
+    <1> О1. Open the 'Notes' app </1>
+    <2> 2. Create 15 lists that will start accordingly (A, a, D, 3, :, U, u, Ш, ш, 5, @, Ї, ї, -, d) </2>
+    <3> 3. On the main page of the application, click on the filter button 'A to Z' </3>
   </step_to_reproduce>
-  <actual_result> Списки сортируются хаотично </actual_result>
+  <actual_result> Lists are sorted randomly </actual_result>
   <expected_result>  
-    <1> Списки сортируются по порядку: символы, цифры, буквы латиницы (сначала верхний регистр), буквы кириллицы (сначала верхний регистр) </1>
-    <2> Правильный порядок : (-, :, @, 3, 5, А, а, D, d, U, u, Ї, ї, Ш, ш) </2>
+    <1> The lists are sorted in order: symbols, numbers, Latin letters (upper case first), Cyrillic letters (upper case first) </1>
+    <2> Correct order : (-, :, @, 3, 5, А, а, D, d, U, u, Ї, ї, Ш, ш) </2>
   </expected_result>
   <severity> Minor </severity>
   <priority> Normal </priority>

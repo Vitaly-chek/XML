@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preference>
-	<favorite_movie> Волк с Уолл-стрит </favorite_movie>
-	<favorite_series> Сотня </favorite_series>
+	<favorite_movie> The Wolf of Wall Street </favorite_movie>
+	<favorite_series> The 100 </favorite_series>
 	<favorite_food>
-		<1> Окрошка </1>
-		<2> Жареная картошка </2>
+		<1> Okroshka </1>
+		<2> Fried potatoe </2>
 	</favorite_food>
 	<favorite_season> 
-		<1> Лето </1>
-		<2>	Осень </2>
+		<1> Summer </1>
+		<2> Autumn </2>
 	</favorite_season> 
 	<favorite_countries>
-		<1> Швейцария <1/>
-		<2> Канада </2>
+		<1> Switzerland <1/>
+		<2> Canada </2>
 	<favorite_countries>
 </preference>
